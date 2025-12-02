@@ -4,9 +4,8 @@ import base64
 import os
 
 
-#API_URL = "http://127.0.0.1:8000/api/process"
-BACKEND_URL = "/process"  
-LOCAL_BACKEND = "http://127.0.0.1:8000/process"
+API_URL = "http://127.0.0.1:8000/api/process"
+
 
 if "SPACE_ID" in os.environ:
     API_URL = BACKEND_URL #HuggingFace
