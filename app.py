@@ -6,13 +6,6 @@ import os
 
 API_URL = "http://127.0.0.1:8000/api/process"
 
-
-if "SPACE_ID" in os.environ:
-    API_URL = BACKEND_URL #HuggingFace
-else:
-    API_URL = LOCAL_BACKEND
-
-
 st.set_page_config(page_title="Medical Report Summarizer", layout="wide")
 
 def set_background(image_file):
