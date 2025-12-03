@@ -1,7 +1,0 @@
-run = "uvicorn main:app --host 0.0.0.0 --port $PORT"
-
-[packager]
-python_version = "3.10"
-
-[deployment]
-run = "uvicorn main:app --host 0.0.0.0 --port $PORT"
