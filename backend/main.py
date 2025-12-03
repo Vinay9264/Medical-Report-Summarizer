@@ -22,4 +22,4 @@ def home():
     return {"message": "Medical Summarizer Backend Running 🚀"}
 
 
-app.include_router(medical_router, prefix="", tags=["Medical Processing"])
+app.include_router(medical_router, prefix="/api", tags=["Medical Processing"])
